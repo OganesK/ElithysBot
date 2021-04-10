@@ -78,4 +78,5 @@ for filename in os.listdir('Cogs'):
             raise Exception
 
 # Run our bot
-bot.run(getenv("TOKEN"))  # Make sure you paste the CORRECT token in the "./data/Token.txt" file
+token = getenv("TOKEN")
+bot.run(token)  # Make sure you paste the CORRECT token in the "./data/Token.txt" file
